@@ -32,7 +32,7 @@ Or you could simply download and extract the .zip file corresponding to this rep
 
 Now you can chose to run the client side code for a web client ( HTML and Javascript) or python.
 
-#### Running the HTML & JavaScript Client
+#### Running the JavaScript Client
 
 You'll wanna use this code if you'd like to stream video from your phone to a webpage.
 
@@ -51,6 +51,32 @@ Here's what you'll need to do:
    
 How cool is that!
 
+#### Running the Python Client
+
+This code allows you to connect and view the video on your phone using Python. So cool!
+
+Follow these steps!
+
+1. Navigate to the Python Client directory.
+
+2. Make sure you have Python installed on your machine. 
+
+3. Make sure you have Open CV for Python.
+
+4. Open the file python_client.py on Python IDLE. Or if you've added python to your command line
+   (I recommend this approach), type the following on your console ( irrespective of the OS):
+   
+   ```
+        python python_client.py
+   ```
+   
+5. You should see a window showing the streaming video from the camera of your phone!
+
+### Have fun!
+
+#### Learn how to make the client here.
+
+#### Thanks!
 
 
 
