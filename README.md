@@ -15,7 +15,7 @@ by your phone running the app at a remote location.
 ### Running the Client Side Code
 
 You can  follow the instructions regarding how to download and run the client code based on 
-your platform  choice, or you can follow the tutorial for writing a client here. 
+your platform  choice, or you can follow the tutorial for writing a client [here](https://github.com/deshpr). 
 
 I highly recommend  following the tutorial, since it's only a few steps, and you can manipulate
 the client code based on your needs.  That's customization right there, and I think that's really cool.
@@ -74,7 +74,7 @@ Follow these steps!
 
 ### Have fun!
 
-#### Learn how to make the client here.
+#### Learn how to make the client [here](https://github.com/deshpr).
 
 #### Thanks!
 
