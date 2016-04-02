@@ -6,7 +6,7 @@
 
 Thanks for downloading my app! 
 
-This repo contains code that serves as the client when communicating with the IotWifiCam  
+This repo contains code that serves as the client when communicating with the IotWifiCam app
 streaming  video content on your phone. 
 
 Therefore, by using this code, you will be able to receive, view and work with the video being recorded
@@ -30,7 +30,7 @@ First, clone this repo using git command line, as follows:
 
 Or you could simply download and extract the .zip file corresponding to this repo.
 
-Now you can chose to run the client side code for a web client ( HTML and Javascript) or python.
+Now you can chose to run either the JavaScript  or python Client.
 
 #### Running the JavaScript Client
 
@@ -61,7 +61,7 @@ Follow these steps!
 
 2. Make sure you have Python installed on your machine. 
 
-3. Make sure you have Open CV for Python.
+3. Make sure you have OpenCV for Python installed on your machine.
 
 4. Open the file python_client.py on Python IDLE. Or if you've added python to your command line
    (I recommend this approach), type the following on your console ( irrespective of the OS):
