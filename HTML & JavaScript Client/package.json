@@ -1,0 +1,15 @@
+{
+  "name": "wificamserver",
+  "version": "1.0.0",
+  "description": "Server for handling camera frame input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RahulDeshpande",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "4.13.4"
+  }
+}
