@@ -28,6 +28,8 @@ function makeRequestUrl(ipAddress, portNumber){
 
 function makeAjaxRequest(ipAddress, portNumber){
     var xReq = new XMLHttpRequest();
+    console.log('Ip Address = ' + ipAddress)
+    console.log('Port number = ' + portNumber)
     xReq.onreadystatechange = function(){
 	if(xReq.readyState == 4 && xReq.status == 200){
 	    var response = xReq.response;
@@ -35,7 +37,8 @@ function makeAjaxRequest(ipAddress, portNumber){
 	    displayImageFromBase64String(response);	
     	}
     }
-    xReq.open("GET", "http://10.16.4.42:1069",  true)
+    var requestUrl = makeRequestUrl(ipAddress, portNumber);
+    xReq.open("GET", requestUrl,  true)	// should be asynchronous
     xReq.send();
 }
 
