@@ -69,8 +69,23 @@ Follow these steps!
    ```
         python python_client.py
    ```
+
+5. Change the following line:
    
+   ```
+       connection = urllib2.urlopen("http://10.16.4.42:1069")
+   ```
+   For instance, if the IP Address is: 192.168.4.1, and port number is 1060, then modify this line 
+   of code to:
+   
+   ```
+       connection = urllib2.urlopen("http://192.168.4.1:1060")
+   ```
+       
 5. You should see a window showing the streaming video from the camera of your phone!
+
+
+
 
 ### Have fun!
 
